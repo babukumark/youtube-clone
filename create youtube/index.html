@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube</title>
+    
+</head>
+<body>
+    <div class="header">
+        <nav class="navFlex">
+            <div class="navleft">
+                <img src="img&icons/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="menu" class="menu">
+                <!-- <img  class="logo" src="youtube-new-logo.webp" alt="logo"> -->
+                <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="22" width="24" class="red"  viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>YouTube</div>
+               
+            </div>
+            <div class="navMedel">
+                <input type="text" placeholder="Search">
+                <div class="menuIcon"><img src="img&icons/search_FILL0_wght400_GRAD0_opsz24.svg" alt="Search" class="menu" ></div>
+                <div class="mike"><img src="img&icons/keyboard_voice_FILL0_wght400_GRAD0_opsz24.svg" alt="mike"></div>
+            </div>
+            <p  onclick="change()" id = 'dark_mode'>DARK</p>
+            <div class="navRight">
+                <img src="img&icons/video_call_FILL0_wght400_GRAD0_opsz24.svg" alt="videocall">
+                <img src="img&icons/notifications_FILL0_wght400_GRAD0_opsz24.svg" alt="bell">
+            
+              <!-- <a href="http://127.0.0.1:5500/index2.html"> <img  src="img&icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt="profile" class="profile" onclick="viweprofile()" ></a>  -->
+
+              <img  src="img&icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt="profile" class="profile" onclick="viweprofile()" >
+              
+                
+               
+            </div>
+            
+        </nav>
+        <nav class="nav2">
+            <p>All</p>
+            <p>live</p>
+            <p>News</p>
+            <p>User informaction desiction</p>
+            <p>Java script</p>
+            <p>Mixes</p>
+            <p>Music</p>
+            <p>Gaming</p>
+            <p>adobe</p>
+            <p>Univarsities</p>
+            <p>Ai</p>
+            <p>Travel</p>
+            <p>Sever</p>
+        </nav>
+    </div>
+
+
+    <div class="leftContainer">
+        <div class="box1">
+            <p class="home"> <span><img class="imgAll" src="img&icons/home_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>home</p>
+            <p class="change"> <span class="abc" ><img class="imgAll"  src="img&icons/play_arrow_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span> shorts</p>
+            <p class="change"> <span class="abc" ><img class="imgAll"  src="img&icons/subscriptions_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>subscriptions</p>
+        </div>
+        <div class="box2">
+            <h5>You</h5>
+            <p class="change"> <span class="abc" ><img  src="img&icons/history_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span> history</p>
+            <p class="change"> <span class="abc" ><img  src="img&icons/schedule_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span> watch Later</p>
+            <p class="change"> <span class="abc" ><img src="img&icons/thumb_up_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Liked videos</p>
+        </div>
+        <div class="box3">
+            <h5>subscriptions</h5>
+            <p class="change"> <span class="abc"><img src="img&icons/add_circle_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Browse channels</p>
+            <p class="change">  <span class="abc"><img src="img&icons/add_circle_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Browse channels</p>
+            <p class="change"> <span class="abc"><img src="img&icons/add_circle_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Browse channels</p>
+            <p class="change"> <span class="abc"><img src="img&icons/ add_circle_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Browse channels</p>
+            <!-- <p>watch Later</p>
+            <p>Liked videos</p> -->
+        </div>
+        <div class="box4">
+            <h5>Explore</h5>
+            <P class="change"><span class="abc"><img src="img&icons/trending_up_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>trending</P>
+            <P class="change"><span class="abc"><img src="img&icons/local_mall_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>shopping</P>
+            <P class="change"><span class="abc" ><img src="img&icons/music_note_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>music</P>
+            <P class="change"><span class="abc"><img src="img&icons/movie_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>flim</P>
+            <P class="change"><span class="abc"><img src="img&icons/bigtop_updates_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>live</P>
+            <P class="change"><span class="abc"><img src="img&icons/stadia_controller_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>gaming</P>
+            <P class="change"><span class="abc"><img src="img&icons/newspaper_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>News</P>
+            <P class="change"> <span class="abc"><img src="img&icons/rewarded_ads_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>sport</P>
+            <P class="change"><span class="abc"><img src="img&icons/lightbulb_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>learning</P>
+            <P class="change"><span class="abc"><img src="img&icons/styler_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>Fashion & beauty</P>
+            <P class="change"><span class="abc"><img src="img&icons/bigtop_updates_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>podcasts</P>
+    </div>
+    </div>
+    <!-- <nav class="nav2">
+        <p>All</p>
+        <p>live</p>
+        <p>News</p>
+        <p>User informaction desiction</p>
+        <p>Java script</p>
+        <p>Mixes</p>
+        <p>Music</p>
+        <p>Gaming</p>
+        <p>adobe</p>
+        <p>Univarsities</p>
+        <p>Ai</p>
+        <p>Travel</p>
+        <p>Sever</p>
+    </nav> -->
+    <div class="rightContainer">
+
+        <div class="row1">
+            <div class="content1">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/0G2VxhV_gXM?si=Oow5mTluV7dgNSv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/ytc/AIf8zZSRMu7Txo4nvXaN3O1v2gaStHKb5fJ0fKxRrmDz=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Premam Malare Video Song | Rajesh Murugesan | Vijay Yesudas | Nivin Pauly | Sai Pallavi</h4>
+                        <p class="tvThanthi">Anwar Rasheed Entertainment Official</p>
+                        <p>365K subscribers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content2">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/hVWhsHOQbXM?si=bDXX7uZtJu2D1N0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/d8kYE1c2rp8m9AiF1-CpIWes0P_PSuRK8R2PjEdLWH9tcPMf07xOE84uSTxL4EbUVXwNhgnPfw=s48-c-k-c0x00ffffff-no-rj"></div>
+                    <div class="idContents">
+                        <h4>Learn CSS Flexbox with Project | Flex Tutorial | Web Development Project | EMC | In Tamil
+                        </h4>
+                        <p class="tvThanthi">Thanthi Tv</p>
+                        <p>12k Views.1hover ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content3">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/VBXnQom7k40?si=3C9yszQTQG6TYswK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.googleusercontent.com/HWtomKI9KAdWshd7ip4gLA56x54gVMUYEOwh5osfvjvwRDaWkoo48pJybCpEYkh1jKFpUvBVnA=s176-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Learn UX/UI from scratch - Lesson 1</h4>
+                        <p class="tvThanthi">Thanthi Tv</p>
+                        <p>12k Views.1hover ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="content4">
+                <div class="image">
+                    <iframe src="https://www.youtube.com/embed/G843QxDt_SI?si=9JyW6X_5oWSBWf5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil"><img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/o8vfJOGy584_AaeQlJ-cC7lXAVvXI82hJI-RB07x63ipcASCTzhxZ5SSJXuKM00t6BXp5QuyhLo=s48-c-k-c0x00ffffff-no-rj"></div>
+                    <div class="idContents">
+                        <h4>How To Make Website Using HTML And CSS | Website Design With HTML And CSS</h4>
+                        <p class="tvThanthi">CodeMentor</p>
+                        <p>12k Views.1hover ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content5">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/RAQIHgQp838?si=0qusniLJS4AmNXPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/FzCPTW3JofU4ZbaD6t8_mcuy1iK9ZpIF-c9ZdMrwdkA7jTF94_WMxs1dIBB3jZqXBWYeUCGvtQ=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Wireframing and Prototyping in Figma under 30 Minutes | UI UX in tamil................................</h4>
+                        <p class="tvThanthi">iampanda</p>
+                    <!-- </p> -->
+                        <p>4.30k Views.24 hovers ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content6">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/olOIIXOM9Qo?si=ZTDdItenZynNIYPm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/FzCPTW3JofU4ZbaD6t8_mcuy1iK9ZpIF-c9ZdMrwdkA7jTF94_WMxs1dIBB3jZqXBWYeUCGvtQ=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                        <p class="tvThanthi">Curious Freaks</p>
+                        <p>276K subscribers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class="content7">
+                <div class="image">
+                    <iframe  class="reels" src="https://www.youtube.com/embed/DfUSFfIT-Gg" title="Landing Page UI | #figma #shorts #uidesign" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idContents">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                        <p class="tvThanthi"></p>
+                        <p>12k Views.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content8">
+                <div class="image">
+                    <iframe class="reels" src="https://www.youtube.com/embed/AGF-xnDO3wA" title="Shaktimaan வந்துட்டாரு .. Parle-G குடுங்க shaktimaan | #shorts | Parithabangal Shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idContents">
+                        <h4> Shaktimaan வந்துட்டாரு .. Parle-G குடுங்க shaktimaan | #shorts | Parithabangal Shorts.</h4>
+                        <p class="tvThanthi"></p>
+                        <p>50k Views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content9">
+                <div class="image">
+                    <iframe class="reels" src="https://www.youtube.com/embed/QOpwIiGNenw" title="Best practice for creating Button in Figma🌈|#figma #shorts #ui" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idContents">
+                        <h4>Best practice for creating Button in Figma🌈|#figma #shorts #ui....................................</h4>
+                        <p class="tvThanthi"></p>
+                        <p>2k Views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content10">
+                <div class="image">
+                    <iframe class="reels" src="https://www.youtube.com/embed/MluPyuyCMZY" title="premam || loves uh || tamil whatsapp || tamil whatsapp status||" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            <div class="imageContante">
+                <div class="idContents">
+                    <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                    <p class="tvThanthi"></p>
+                    <p>12k Views.</p>
+                </div>
+            </div></div>
+            <div class="content11">
+                <div class="image">
+                    <iframe class="reels" src="https://www.youtube.com/embed/pUbdGS_F8Ns" title="கிளம்பப்போறார், கிளம்பிட்டார் 🤣| Parithabangal Shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idContents">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                        <p class="tvThanthi"></p>
+                        <p>2k Views.</p>
+                    </div>
+                </div></div>
+        </div>
+
+        <div class="row4">
+            <div class="content12">
+                <div class="image">
+                    <iframe src="https://www.youtube.com/embed/FgMpuCopAQU?si=NWGxPjbwdW175YtC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/FCZaQNYl4mvDryUJe_nvGH6NuNznbGiKpzc3ZDlHvoHZMHqoCDdny4V3e0eHZG5sorIXGgIT=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                        <p class="tvThanthi"> Velmurugan MG</p>
+                        <p>259 subscribers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content13">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/X0IfhWC5kwM?si=cP4jKydCLs33pbmj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/b6301mqrMKh3K1ZVKP4CT0JkLa2RRs6HsLUmWXjI7euXsMJTxI5mqTJLsk6EjC7LPL4a27nLzg=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod eum modi nulla iste.</h4>
+                        <p class="tvThanthi"> Rahul M</p>
+                        <p>660K subscriberso</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content14">
+                <div class="image">
+                    <iframe  src="https://www.youtube.com/embed/qMGQytZ7zbU?si=Wk8-zICE6fCB-fXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="imageContante">
+                    <div class="idProfil">
+                        <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" width="40" src="https://yt3.ggpht.com/RJ8ySm5SCcJX1MQ-yvS7wuO3AobSods8x0SvHHzc88EGa7xzSh3ndJpLdRTMUtPOTSO7zZIV=s48-c-k-c0x00ffffff-no-rj">
+                    </div>
+                    <div class="idContents">
+                        <h4>Ep:1 | DCKAP Palli - Interview process explained | டிசிகாப் பள்ளி நேர்காணல் செயல்முறை விளக்கம்</h4>
+                        <p class="tvThanthi">DCKAP Palli</p>
+                        <p>59 subscription</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------ -->
+    <div class="container1">
+        <div class="one">
+            <div class="proImg">
+                <img src="img&icons/1670572713510.jpg" alt="">
+            </div>
+            <div class="proCunt">
+                <h6>Babu Kumar K</h6>
+                <p>babukumarkdckap@gmail.com</p>
+                <p style="color: blue;">create a chanel</p>
+            </div>
+        </div>
+        <div class="two">
+            <div> <i class="fa-brands fa-google"></i>Google Account</div>
+            <div> <i class="fa-solid fa-address-card"></i>Switch account</div>
+            <div><i class="fa-solid fa-arrow-right-from-bracket"></i> sign out</div>
+        </div>
+        <div class="tree">
+            <div> <i class="fa-regular fa-play"></i>youtube studio</div>
+            <div> <i class="fa-solid fa-hand-holding-dollar"></i>purchases and memberships</div>
+        </div>
+        <div class="four">
+            <div> <i class="fa-solid fa-shield"></i>your data in youTube</div>
+            <div> <i class="fa-regular fa-moon"></i>Appearnce:Dark</div>
+            <div> <i class="fa-solid fa-language"></i>Language:British English </div>
+            <div> <i class="fa-solid fa-shield"></i>Restricted Mode:of</div>
+            <div> <i class="fa-solid fa-earth-americas"></i>Locatoin:india</div>
+            <div> <i class="fa-regular fa-keyboard"></i>Keyboard shortcuts</div>
+        </div>
+        <div class="five">
+            <div> <i class="fa-solid fa-gear"></i>setting</div>
+        </div>
+        <div class="six">
+            <div> <i class="fa-solid fa-question"></i>help</div>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
